@@ -1,5 +1,8 @@
 # gpt-for-pdf
 
+A project that integrates LLMs (Large Language Models) with PDF files. It is possible to ask questions about subjects related to the file chosen by the user.
+Responses are generated through langchain, which uses openai model.
+
 # How to use
 
 Clone this repository:
