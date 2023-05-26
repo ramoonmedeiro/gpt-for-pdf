@@ -15,7 +15,7 @@ from langchain.embeddings.openai import OpenAIEmbeddings
 from langchain.callbacks import get_openai_callback
 
 # Util methods
-from .utils import spliter_into_chunks, storage_vector
+from utils import spliter_into_chunks, storage_vector
 
 load_dotenv('.env')
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
